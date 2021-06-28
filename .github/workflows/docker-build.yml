@@ -36,8 +36,8 @@ jobs:
         name: Login to DockerHub
         uses: docker/login-action@v1 
         with:
-          username: ${{ pitson3 }}
-          password: ${{ 67e9e4b1-d2b3-4f8b-8d95-f82cec43236f }}
+          username: ${{ 'pitson3' }}
+          password: ${{ 'c46af380-cadc-45f3-9144-9ff0605170f3' }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
