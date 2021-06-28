@@ -37,7 +37,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: Pitson3
-          password: \#.12341994pX
+          password: '#.12341994pX'
       -
         name: Build and push
         uses: docker/build-push-action@v2
